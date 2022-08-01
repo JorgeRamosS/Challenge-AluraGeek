@@ -50,7 +50,7 @@ const leerProductos = () =>
   );
 
 const leerProducto = (id) =>
-  fetch(`https://fake-alura-api.herokuapp.com/products${id}`).then((response) =>
+  fetch(`https://fake-alura-api.herokuapp.com/products/${id}`).then((response) =>
     response.json()
   );
 
