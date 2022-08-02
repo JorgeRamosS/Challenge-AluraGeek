@@ -626,5 +626,9 @@ svg {
   .productos {
     justify-content: center;
     margin-bottom: 2rem;
+  } 
+  
+  .button {
+    width: 4rem;
   }
 }
