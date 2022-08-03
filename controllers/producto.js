@@ -21,7 +21,7 @@ const crearTarjeta = ({ nombre, categoria, url, precio, descripcion }) => {
   imgTag.src = url;
   categoriaTag.textContent = `Categoría: ${categoria}`;
   nombreTag.textContent = nombre;
-  precioTag.textContent = `$ ${precio}`;
+  precioTag.textContent = `${precio}`;
   descripcionTag.textContent = descripcion;
 };
 
