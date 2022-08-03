@@ -31,8 +31,8 @@ const nuevoProducto = (url, nombre, precio, id) => {
     const id = btn.id;
     clientServices
       .eliminarItem(id)
-      .then((respuesta) => {
-        console.log(respuesta);
+      .then(() => {
+        window.location.href = "./itemBorrado.html";
       })
       .catch((err) => alert("Ocurrio un error"));
   });
