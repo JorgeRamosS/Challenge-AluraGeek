@@ -11,7 +11,7 @@ formulario.addEventListener("submit", (e) => {
   clientServices
     .crearItem(nombre, categoria, url, precio, descripcion)
     .then(() => {
-      window.location.href = "../registrocompletado.html";
+      window.location.href = "./registrocompletado.html";
     })
     .catch((err) => console.log(err));
 });
